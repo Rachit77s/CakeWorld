@@ -37,8 +37,8 @@ namespace CakeWorld
             // Rachit: Adds support for MVC in our application
             services.AddControllersWithViews();
 
-            services.AddScoped<ICategoryRepository, MockCategoryRepository>();
-            services.AddScoped<ICakeRepository, MockCakeRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ICakeRepository, CakeRepository>();
 
         }
 
