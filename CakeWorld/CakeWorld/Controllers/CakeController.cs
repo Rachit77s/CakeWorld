@@ -31,5 +31,14 @@ namespace CakeWorld.Controllers
 
             return View(cakesListViewModel);
         }
+
+        public IActionResult Details(int id)
+        {
+            var pie = _cakeRepository.GetCakeById(id);
+            if (pie == null)
+                return NotFound();
+
+            return View(pie);
+        }
     }
 }

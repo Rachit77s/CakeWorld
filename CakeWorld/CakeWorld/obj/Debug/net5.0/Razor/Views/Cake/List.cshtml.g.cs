@@ -19,8 +19,15 @@ using CakeWorld.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\Views\_ViewImports.cshtml"
+using CakeWorld.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6de053d631028ff6ed42396ae037604f65ef44de", @"/Views/Cake/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"694c3f73622d62227251794a3687d34a57fcc4ee", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fb965921983fc7dbc2db0d9e278cbd37caed2de3", @"/Views/_ViewImports.cshtml")]
     public class Views_Cake_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CakesListViewModel>
     {
         #pragma warning disable 1998
