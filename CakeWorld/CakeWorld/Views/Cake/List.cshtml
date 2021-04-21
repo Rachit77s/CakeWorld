@@ -4,16 +4,21 @@
 
 @foreach (var pie in Model.Cakes)
 {
-    <div class="col-sm-4 col-lg-4 col-md-4">
+    //Rachit:  Moved this code to the partial view
+
+    @*<div class="col-sm-4 col-lg-4 col-md-4">
         <div class="thumbnail">
             <img src="@pie.ImageThumbnailUrl" alt="">
             <div class="caption">
                 <h3 class="pull-right">@pie.Price.ToString("c")</h3>
                 <h3>
-                    <a>@pie.Name</a>
+                    <a asp-controller="Cake" asp-action="Details" asp-route-id="@pie.CakeId" >@pie.Name</a>
                 </h3>
                 <p>@pie.ShortDescription</p>
             </div>
         </div>
-    </div>
+    </div>*@
+
+    <partial name="_CakeCard" model="pie" />
+
 }

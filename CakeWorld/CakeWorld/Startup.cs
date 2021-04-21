@@ -60,7 +60,7 @@ namespace CakeWorld
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Cake}/{action=List}/{id?}" );                                
+                    pattern: "{controller=Home}/{action=Index}/{id?}" );                                
             });
         }
     }

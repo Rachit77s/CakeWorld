@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Shared\Components\CategoryMenu\" />
+    <Folder Include="Views\Shared\Components\ShoppingCartSummary\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\content\" />
   </ItemGroup>
