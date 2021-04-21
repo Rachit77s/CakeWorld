@@ -34,11 +34,23 @@ namespace CakeWorld
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            // Rachit: Adds support for MVC in our application
-            services.AddControllersWithViews();
-
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICakeRepository, CakeRepository>();
+
+            // Rachit: 
+            // This is required because when the user visits the site we are going to create the scoped shopping cart using the GetCart(),
+            // this gives us the ability to check if the CartId is already in the session, if not, we will pass it into the session and
+            // return the ShoppingCart itself down here.
+            // Hence this way we are sure that when the user comes to the site, a shopping cart will be associated with that request.
+
+            // Invoke the GetCart() for the user
+            services.AddScoped<ShoppingCartService>(sp => ShoppingCartService.GetCart(sp));
+
+            services.AddHttpContextAccessor();
+            services.AddSession();
+
+            // Rachit: Adds support for MVC in our application
+            services.AddControllersWithViews();
 
         }
 
@@ -54,6 +66,7 @@ namespace CakeWorld
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
+            app.UseSession();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
