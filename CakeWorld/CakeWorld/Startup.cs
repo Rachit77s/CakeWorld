@@ -36,6 +36,7 @@ namespace CakeWorld
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICakeRepository, CakeRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
 
             // Rachit: 
             // This is required because when the user visits the site we are going to create the scoped shopping cart using the GetCart(),

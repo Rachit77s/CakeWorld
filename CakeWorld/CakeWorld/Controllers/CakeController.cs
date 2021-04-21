@@ -1,4 +1,5 @@
-﻿using CakeWorld.Repository.Interfaces;
+﻿using CakeWorld.Models;
+using CakeWorld.Repository.Interfaces;
 using CakeWorld.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -20,16 +21,40 @@ namespace CakeWorld.Controllers
         }
 
         // GET: /<controller>/
-        public IActionResult List()
+        //public IActionResult List()
+        //{
+        //    ViewBag.CurrentCategory = "Cheese cakes";
+
+        //    //return View(_cakeRepository.AllCakes);
+        //    CakesListViewModel cakesListViewModel = new CakesListViewModel();
+        //    cakesListViewModel.Cakes = _cakeRepository.AllCakes;
+        //    cakesListViewModel.CurrentCategory = "Cheese cakes";
+
+        //    return View(cakesListViewModel);
+        //}
+
+        public ViewResult List(string category)
         {
-            ViewBag.CurrentCategory = "Cheese cakes";
+            IEnumerable<Cake> cakes;
+            string currentCategory;
 
-            //return View(_cakeRepository.AllCakes);
-            CakesListViewModel cakesListViewModel = new CakesListViewModel();
-            cakesListViewModel.Cakes = _cakeRepository.AllCakes;
-            cakesListViewModel.CurrentCategory = "Cheese cakes";
+            if (string.IsNullOrEmpty(category))
+            {
+                cakes = _cakeRepository.AllCakes.OrderBy(p => p.CakeId);
+                currentCategory = "All pies";
+            }
+            else
+            {
+                cakes = _cakeRepository.AllCakes.Where(p => p.Category.CategoryName == category)
+                    .OrderBy(p => p.CakeId);
+                currentCategory = _categoryRepository.AllCategories.FirstOrDefault(c => c.CategoryName == category)?.CategoryName;
+            }
 
-            return View(cakesListViewModel);
+            return View(new CakesListViewModel
+            {
+                Cakes = cakes,
+                CurrentCategory = currentCategory
+            });
         }
 
         public IActionResult Details(int id)

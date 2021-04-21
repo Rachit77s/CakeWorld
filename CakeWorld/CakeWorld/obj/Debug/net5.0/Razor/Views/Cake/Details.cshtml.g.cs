@@ -27,7 +27,7 @@ using CakeWorld.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3dfda6247d1e2698357d3473c19b3ac8c7a5e0da", @"/Views/Cake/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fb965921983fc7dbc2db0d9e278cbd37caed2de3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5c22b5c5245f0d5dea9a8d5e0df135433cb19702", @"/Views/_ViewImports.cshtml")]
     public class Views_Cake_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Cake>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-primary"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

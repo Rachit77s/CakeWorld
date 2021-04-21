@@ -18,6 +18,9 @@ namespace CakeWorld.Data
 
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
 
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+
 
         // Rachit: Method to Add Seed Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)

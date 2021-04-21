@@ -73,3 +73,8 @@ C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razo
 C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\Shared\_Carousel.cshtml.g.cs
 C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\ShoppingCart\Index.cshtml.g.cs
+C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
+C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
+C:\Users\HP\Documents\GitHub\CakeWorld\CakeWorld\CakeWorld\obj\Debug\net5.0\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
