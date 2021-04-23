@@ -1,6 +1,7 @@
 ﻿using CakeWorld.Models;
 using CakeWorld.Repository.Interfaces;
 using CakeWorld.Repository.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace CakeWorld.Controllers
 {
+    [Authorize]
     public class OrderController : Controller
     {
         private readonly IOrderRepository _orderRepository;
