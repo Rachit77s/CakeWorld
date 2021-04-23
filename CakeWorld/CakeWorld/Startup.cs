@@ -4,6 +4,7 @@ using CakeWorld.Repository.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,6 +35,9 @@ namespace CakeWorld
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            // Rachit: For Identity
+            services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<AppDbContext>();
+
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICakeRepository, CakeRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
@@ -53,6 +57,8 @@ namespace CakeWorld
             // Rachit: Adds support for MVC in our application
             services.AddControllersWithViews();
 
+            services.AddRazorPages();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -70,11 +76,17 @@ namespace CakeWorld
             app.UseSession();
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}" );                                
+                    pattern: "{controller=Home}/{action=Index}/{id?}" );
+
+                // Rachit: For Identity
+                endpoints.MapRazorPages();
+
             });
         }
     }
