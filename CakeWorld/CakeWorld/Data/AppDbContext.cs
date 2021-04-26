@@ -45,10 +45,10 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/appleCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/applepie.jpg",
                 InStock = true,
                 IsCakeOfTheWeek = true,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/appleCakesmall.jpg",
+                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/applepiesmall.jpg",
                 AllergyInformation = ""
             });
 
@@ -94,10 +94,10 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherryCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherrypie.jpg",
                 InStock = true,
                 IsCakeOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherryCakesmall.jpg",
+                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cherrypiesmall.jpg",
                 AllergyInformation = ""
             });
 
@@ -110,11 +110,11 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 3,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasappleCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasapplepie.jpg",
                 InStock = true,
                 IsCakeOfTheWeek = false,
                 ImageThumbnailUrl =
-                    "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasappleCakesmall.jpg",
+                    "https://gillcleerenpluralsight.blob.core.windows.net/files/christmasapplepiesmall.jpg",
                 AllergyInformation = ""
             });
 
@@ -127,10 +127,10 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 3,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberryCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberrypie.jpg",
                 InStock = true,
                 IsCakeOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberryCakesmall.jpg",
+                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/cranberrypiesmall.jpg",
                 AllergyInformation = ""
             });
 
@@ -143,10 +143,10 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachpie.jpg",
                 InStock = false,
                 IsCakeOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachCakesmall.jpg",
+                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/peachpiesmall.jpg",
                 AllergyInformation = ""
             });
 
@@ -159,10 +159,10 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 3,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinpie.jpg",
                 InStock = true,
                 IsCakeOfTheWeek = true,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinCakesmall.jpg",
+                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/pumpkinpiesmall.jpg",
                 AllergyInformation = ""
             });
 
@@ -176,10 +176,10 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbpie.jpg",
                 InStock = true,
                 IsCakeOfTheWeek = true,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbCakesmall.jpg",
+                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/rhubarbpiesmall.jpg",
                 AllergyInformation = ""
             });
 
@@ -192,10 +192,10 @@ namespace CakeWorld.Data
                 LongDescription =
                     "Icing carrot cake jelly-o cheesecake. Sweet roll marzipan marshmallow toffee brownie brownie candy tootsie roll. Chocolate cake gingerbread tootsie roll oat cake Cake chocolate bar cookie dragée brownie. Lollipop cotton candy cake bear claw oat cake. Dragée candy canes dessert tart. Marzipan dragée gummies lollipop jujubes chocolate bar candy canes. Icing gingerbread chupa chups cotton candy cookie sweet icing bonbon gummies. Gummies lollipop brownie biscuit danish chocolate cake. Danish powder cookie macaroon chocolate donut tart. Carrot cake dragée croissant lemon drops liquorice lemon drops cookie lollipop toffee. Carrot cake carrot cake liquorice sugar plum topping bonbon Cake muffin jujubes. Jelly pastry wafer tart caramels bear claw. Tiramisu tart Cake cake danish lemon drops. Brownie cupcake dragée gummies.",
                 CategoryId = 1,
-                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryCake.jpg",
+                ImageUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrypie.jpg",
                 InStock = true,
                 IsCakeOfTheWeek = false,
-                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberryCakesmall.jpg",
+                ImageThumbnailUrl = "https://gillcleerenpluralsight.blob.core.windows.net/files/strawberrypiesmall.jpg",
                 AllergyInformation = ""
             });
 

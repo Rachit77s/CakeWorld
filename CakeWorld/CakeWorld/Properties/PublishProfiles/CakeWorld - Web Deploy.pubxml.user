@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPYnY8SBgBk6rLP4tuTaDIQAAAAACAAAAAAAQZgAAAAEAACAAAAAweX7JFCuPE8zEK43TW2UVI1YpQrUoJqsPiIfA+rzn7QAAAAAOgAAAAAIAACAAAABbND1mhUMIORsDle0wdMDBm66zmRtdU71+iQvbOXjk9oAAAAAwzspLkbc+PEcrC9sk/FbB/G0HsoNZZJcRKmy2i0MWMiH/KQTJTYwYtvq1iLe8Zt8boRXCs07yz1gPh9hKY5QGgemSSmwCwnDYOXcq/osdykPeAC/rprfRAH+0AMJg7gHB8rS+Eu8TPoNTME2GLeWKX95QY4RPhW8tWGvfIoNKhEAAAAB7DwwR+5ICJZswmWiX2UtPoqvGoASyYe2D/x3rQPOCgYbmsfUjM+Qt2c2ttN5gqzHbwcQhfxN9V0ZIWPhCc48t</EncryptedPassword>
+    <History>True|2021-04-26T17:13:41.7684168Z;True|2021-04-26T21:13:11.5060635+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:cakeworlddbserver.database.windows.net,1433%3bInitial Catalog=CakeWorld_db%3bUser Id=maxsql%40cakeworlddbserver%3bPassword=m%40xSqL34</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CakeWorld.Data.AppDbContext">
+      <Value>Data Source=tcp:cakeworlddbserver.database.windows.net,1433%3bInitial Catalog=CakeWorld_db%3bUser Id=maxsql%40cakeworlddbserver%3bPassword=m%40xSqL34</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
